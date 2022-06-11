@@ -115,4 +115,20 @@
     Private Sub AG_Progras_SelectedIndexChanged(sender As Object, e As EventArgs) Handles AG_Progras.SelectedIndexChanged
 
     End Sub
+
+    Private Sub Label57_Click(sender As Object, e As EventArgs) Handles Label57.Click
+
+    End Sub
+
+    Private Sub PG_date_1_TextChanged(sender As Object, e As EventArgs) Handles PG_date_1.TextChanged
+
+    End Sub
+
+    Private Sub Label39_Click(sender As Object, e As EventArgs) Handles Label39.Click
+
+    End Sub
+
+    Private Sub PG_pends_SelectedIndexChanged(sender As Object, e As EventArgs) Handles PG_pends.SelectedIndexChanged
+
+    End Sub
 End Class
