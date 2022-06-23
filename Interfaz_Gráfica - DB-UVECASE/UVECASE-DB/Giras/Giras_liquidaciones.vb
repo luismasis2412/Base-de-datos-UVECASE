@@ -30,4 +30,16 @@
     Private Sub Label61_Click(sender As Object, e As EventArgs) Handles Label61.Click
 
     End Sub
+
+    Private Sub Label74_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Giras_liquidaciones_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Label68_Click(sender As Object, e As EventArgs) Handles Label68.Click
+
+    End Sub
 End Class

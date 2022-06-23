@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Giras_liquidaciones
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Giras_liquidaciones
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
@@ -203,12 +203,6 @@ Partial Class Giras_liquidaciones
         Me.ComboBox13 = New System.Windows.Forms.ComboBox()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TextBox65 = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker5 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker6 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker7 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker8 = New System.Windows.Forms.DateTimePicker()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.Label66 = New System.Windows.Forms.Label()
@@ -219,6 +213,18 @@ Partial Class Giras_liquidaciones
         Me.CheckBox39 = New System.Windows.Forms.CheckBox()
         Me.TextBox53 = New System.Windows.Forms.TextBox()
         Me.Label67 = New System.Windows.Forms.Label()
+        Me.TextBox64 = New System.Windows.Forms.TextBox()
+        Me.TextBox67 = New System.Windows.Forms.TextBox()
+        Me.TextBox68 = New System.Windows.Forms.TextBox()
+        Me.TextBox69 = New System.Windows.Forms.TextBox()
+        Me.TextBox70 = New System.Windows.Forms.TextBox()
+        Me.TextBox71 = New System.Windows.Forms.TextBox()
+        Me.TextBox74 = New System.Windows.Forms.TextBox()
+        Me.TextBox77 = New System.Windows.Forms.TextBox()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label44
@@ -276,8 +282,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox11.BackColor = System.Drawing.Color.Linen
         Me.TextBox11.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox11.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox11.Location = New System.Drawing.Point(101, 281)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox11.Location = New System.Drawing.Point(127, 281)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(92, 52)
         Me.TextBox11.TabIndex = 605
@@ -289,7 +295,7 @@ Partial Class Giras_liquidaciones
         Me.Label33.AutoSize = True
         Me.Label33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label33.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(166, 171)
+        Me.Label33.Location = New System.Drawing.Point(206, 175)
         Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(79, 52)
@@ -301,7 +307,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(34, 843)
+        Me.Label21.Location = New System.Drawing.Point(14, 841)
         Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -327,8 +333,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox1.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(117, 779)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Location = New System.Drawing.Point(155, 777)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(207, 56)
         Me.ComboBox1.TabIndex = 594
@@ -336,8 +342,8 @@ Partial Class Giras_liquidaciones
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(188, 681)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox3.Location = New System.Drawing.Point(201, 681)
+        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox3.TabIndex = 570
@@ -346,8 +352,8 @@ Partial Class Giras_liquidaciones
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(188, 637)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox2.Location = New System.Drawing.Point(201, 637)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox2.TabIndex = 569
@@ -356,8 +362,8 @@ Partial Class Giras_liquidaciones
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(188, 600)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Location = New System.Drawing.Point(201, 600)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox1.TabIndex = 568
@@ -406,7 +412,7 @@ Partial Class Giras_liquidaciones
         '
         Me.TextBox6.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.Location = New System.Drawing.Point(938, 79)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(304, 52)
         Me.TextBox6.TabIndex = 559
@@ -416,8 +422,8 @@ Partial Class Giras_liquidaciones
         'TextBox75
         '
         Me.TextBox75.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox75.Location = New System.Drawing.Point(117, 515)
-        Me.TextBox75.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox75.Location = New System.Drawing.Point(145, 511)
+        Me.TextBox75.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox75.Name = "TextBox75"
         Me.TextBox75.Size = New System.Drawing.Size(102, 52)
         Me.TextBox75.TabIndex = 553
@@ -426,8 +432,8 @@ Partial Class Giras_liquidaciones
         'TextBox76
         '
         Me.TextBox76.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox76.Location = New System.Drawing.Point(112, 454)
-        Me.TextBox76.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox76.Location = New System.Drawing.Point(144, 454)
+        Me.TextBox76.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox76.Name = "TextBox76"
         Me.TextBox76.Size = New System.Drawing.Size(105, 52)
         Me.TextBox76.TabIndex = 552
@@ -483,9 +489,9 @@ Partial Class Giras_liquidaciones
         '
         'TextBox99
         '
-        Me.TextBox99.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox99.Location = New System.Drawing.Point(112, 382)
-        Me.TextBox99.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox99.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox99.Location = New System.Drawing.Point(144, 382)
+        Me.TextBox99.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox99.Multiline = True
         Me.TextBox99.Name = "TextBox99"
         Me.TextBox99.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -521,7 +527,7 @@ Partial Class Giras_liquidaciones
         Me.TextBox101.Cursor = System.Windows.Forms.Cursors.No
         Me.TextBox101.Font = New System.Drawing.Font("Gabriola", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox101.Location = New System.Drawing.Point(1925, 23)
-        Me.TextBox101.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox101.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox101.Name = "TextBox101"
         Me.TextBox101.ReadOnly = True
         Me.TextBox101.Size = New System.Drawing.Size(141, 109)
@@ -544,7 +550,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(92, 223)
+        Me.Label2.Location = New System.Drawing.Point(108, 227)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(106, 50)
@@ -556,7 +562,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(192, 223)
+        Me.Label3.Location = New System.Drawing.Point(230, 227)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(132, 50)
@@ -567,8 +573,8 @@ Partial Class Giras_liquidaciones
         'TextBox16
         '
         Me.TextBox16.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(225, 454)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox16.Location = New System.Drawing.Point(253, 454)
+        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(93, 52)
         Me.TextBox16.TabIndex = 636
@@ -604,7 +610,7 @@ Partial Class Giras_liquidaciones
         Me.TextBox18.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox18.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.TextBox18.Location = New System.Drawing.Point(201, 721)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(92, 52)
         Me.TextBox18.TabIndex = 640
@@ -614,8 +620,8 @@ Partial Class Giras_liquidaciones
         'TextBox19
         '
         Me.TextBox19.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(117, 905)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox19.Location = New System.Drawing.Point(155, 903)
+        Me.TextBox19.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(207, 52)
         Me.TextBox19.TabIndex = 643
@@ -651,8 +657,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox12.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox12.FormattingEnabled = True
-        Me.ComboBox12.Location = New System.Drawing.Point(117, 841)
-        Me.ComboBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox12.Location = New System.Drawing.Point(155, 839)
+        Me.ComboBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox12.Name = "ComboBox12"
         Me.ComboBox12.Size = New System.Drawing.Size(207, 56)
         Me.ComboBox12.TabIndex = 645
@@ -660,8 +666,8 @@ Partial Class Giras_liquidaciones
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(253, 681)
-        Me.CheckBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox4.Location = New System.Drawing.Point(286, 681)
+        Me.CheckBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox4.TabIndex = 649
@@ -670,8 +676,8 @@ Partial Class Giras_liquidaciones
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(253, 637)
-        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox5.Location = New System.Drawing.Point(288, 637)
+        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox5.TabIndex = 648
@@ -680,8 +686,8 @@ Partial Class Giras_liquidaciones
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(253, 600)
-        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox6.Location = New System.Drawing.Point(288, 600)
+        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox6.TabIndex = 647
@@ -690,8 +696,8 @@ Partial Class Giras_liquidaciones
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(225, 515)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Location = New System.Drawing.Point(255, 511)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(93, 52)
         Me.TextBox2.TabIndex = 646
@@ -700,8 +706,8 @@ Partial Class Giras_liquidaciones
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(286, 722)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox3.Location = New System.Drawing.Point(286, 720)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(76, 52)
         Me.TextBox3.TabIndex = 650
@@ -711,8 +717,8 @@ Partial Class Giras_liquidaciones
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(453, 723)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox4.Location = New System.Drawing.Point(505, 720)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(92, 52)
         Me.TextBox4.TabIndex = 672
@@ -722,8 +728,8 @@ Partial Class Giras_liquidaciones
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(491, 681)
-        Me.CheckBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox7.Location = New System.Drawing.Point(527, 681)
+        Me.CheckBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox7.TabIndex = 671
@@ -732,8 +738,8 @@ Partial Class Giras_liquidaciones
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(491, 637)
-        Me.CheckBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox8.Location = New System.Drawing.Point(527, 637)
+        Me.CheckBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox8.TabIndex = 670
@@ -742,8 +748,8 @@ Partial Class Giras_liquidaciones
         'CheckBox9
         '
         Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(491, 600)
-        Me.CheckBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox9.Location = New System.Drawing.Point(527, 600)
+        Me.CheckBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox9.TabIndex = 669
@@ -752,8 +758,8 @@ Partial Class Giras_liquidaciones
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(453, 516)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox5.Location = New System.Drawing.Point(493, 511)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(92, 52)
         Me.TextBox5.TabIndex = 668
@@ -764,7 +770,7 @@ Partial Class Giras_liquidaciones
         Me.Label8.AutoSize = True
         Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label8.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(385, 171)
+        Me.Label8.Location = New System.Drawing.Point(422, 175)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(87, 52)
@@ -776,8 +782,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox2.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(345, 841)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox2.Location = New System.Drawing.Point(397, 844)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox2.TabIndex = 667
@@ -785,8 +791,8 @@ Partial Class Giras_liquidaciones
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(345, 904)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox7.Location = New System.Drawing.Point(397, 909)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(200, 52)
         Me.TextBox7.TabIndex = 666
@@ -797,8 +803,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox8.BackColor = System.Drawing.Color.Linen
         Me.TextBox8.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox8.Location = New System.Drawing.Point(370, 723)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox8.Location = New System.Drawing.Point(410, 718)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(74, 52)
         Me.TextBox8.TabIndex = 665
@@ -808,8 +814,8 @@ Partial Class Giras_liquidaciones
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(453, 458)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox9.Location = New System.Drawing.Point(491, 456)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(92, 52)
         Me.TextBox9.TabIndex = 664
@@ -819,8 +825,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox3.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(345, 778)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox3.Location = New System.Drawing.Point(397, 780)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox3.TabIndex = 658
@@ -828,8 +834,8 @@ Partial Class Giras_liquidaciones
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(385, 681)
-        Me.CheckBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox10.Location = New System.Drawing.Point(421, 681)
+        Me.CheckBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox10.TabIndex = 657
@@ -838,8 +844,8 @@ Partial Class Giras_liquidaciones
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(385, 637)
-        Me.CheckBox11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox11.Location = New System.Drawing.Point(421, 637)
+        Me.CheckBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox11.TabIndex = 656
@@ -848,8 +854,8 @@ Partial Class Giras_liquidaciones
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(385, 600)
-        Me.CheckBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox12.Location = New System.Drawing.Point(421, 600)
+        Me.CheckBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox12.TabIndex = 655
@@ -858,8 +864,8 @@ Partial Class Giras_liquidaciones
         'TextBox13
         '
         Me.TextBox13.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(345, 516)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox13.Location = New System.Drawing.Point(385, 511)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(99, 52)
         Me.TextBox13.TabIndex = 654
@@ -868,8 +874,8 @@ Partial Class Giras_liquidaciones
         'TextBox14
         '
         Me.TextBox14.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(345, 456)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox14.Location = New System.Drawing.Point(385, 456)
+        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(99, 52)
         Me.TextBox14.TabIndex = 653
@@ -877,9 +883,9 @@ Partial Class Giras_liquidaciones
         '
         'TextBox17
         '
-        Me.TextBox17.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(345, 382)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox17.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox17.Location = New System.Drawing.Point(385, 382)
+        Me.TextBox17.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -889,8 +895,8 @@ Partial Class Giras_liquidaciones
         'TextBox21
         '
         Me.TextBox21.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(686, 718)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox21.Location = New System.Drawing.Point(748, 718)
+        Me.TextBox21.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(83, 52)
         Me.TextBox21.TabIndex = 694
@@ -900,8 +906,8 @@ Partial Class Giras_liquidaciones
         'CheckBox13
         '
         Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(717, 681)
-        Me.CheckBox13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox13.Location = New System.Drawing.Point(779, 681)
+        Me.CheckBox13.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox13.TabIndex = 693
@@ -910,8 +916,8 @@ Partial Class Giras_liquidaciones
         'CheckBox14
         '
         Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(717, 637)
-        Me.CheckBox14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox14.Location = New System.Drawing.Point(779, 637)
+        Me.CheckBox14.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox14.TabIndex = 692
@@ -920,8 +926,8 @@ Partial Class Giras_liquidaciones
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(717, 600)
-        Me.CheckBox15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox15.Location = New System.Drawing.Point(779, 600)
+        Me.CheckBox15.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox15.TabIndex = 691
@@ -930,10 +936,10 @@ Partial Class Giras_liquidaciones
         'TextBox22
         '
         Me.TextBox22.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(686, 522)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox22.Location = New System.Drawing.Point(728, 522)
+        Me.TextBox22.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(83, 52)
+        Me.TextBox22.Size = New System.Drawing.Size(103, 52)
         Me.TextBox22.TabIndex = 690
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -942,7 +948,7 @@ Partial Class Giras_liquidaciones
         Me.Label11.AutoSize = True
         Me.Label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label11.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(600, 171)
+        Me.Label11.Location = New System.Drawing.Point(687, 175)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(110, 52)
@@ -954,8 +960,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox4.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(569, 846)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox4.Location = New System.Drawing.Point(631, 845)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox4.TabIndex = 689
@@ -963,8 +969,8 @@ Partial Class Giras_liquidaciones
         'TextBox23
         '
         Me.TextBox23.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(569, 907)
-        Me.TextBox23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox23.Location = New System.Drawing.Point(631, 911)
+        Me.TextBox23.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(200, 52)
         Me.TextBox23.TabIndex = 688
@@ -975,8 +981,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox24.BackColor = System.Drawing.Color.Linen
         Me.TextBox24.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox24.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox24.Location = New System.Drawing.Point(569, 722)
-        Me.TextBox24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox24.Location = New System.Drawing.Point(631, 722)
+        Me.TextBox24.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(101, 52)
         Me.TextBox24.TabIndex = 687
@@ -986,10 +992,10 @@ Partial Class Giras_liquidaciones
         'TextBox25
         '
         Me.TextBox25.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(686, 462)
-        Me.TextBox25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox25.Location = New System.Drawing.Point(728, 462)
+        Me.TextBox25.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(83, 52)
+        Me.TextBox25.Size = New System.Drawing.Size(103, 52)
         Me.TextBox25.TabIndex = 686
         Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -997,8 +1003,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox5.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(569, 782)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox5.Location = New System.Drawing.Point(631, 782)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox5.TabIndex = 680
@@ -1006,8 +1012,8 @@ Partial Class Giras_liquidaciones
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(610, 681)
-        Me.CheckBox16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox16.Location = New System.Drawing.Point(672, 681)
+        Me.CheckBox16.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox16.Name = "CheckBox16"
         Me.CheckBox16.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox16.TabIndex = 679
@@ -1016,8 +1022,8 @@ Partial Class Giras_liquidaciones
         'CheckBox17
         '
         Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(610, 637)
-        Me.CheckBox17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox17.Location = New System.Drawing.Point(672, 637)
+        Me.CheckBox17.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox17.Name = "CheckBox17"
         Me.CheckBox17.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox17.TabIndex = 678
@@ -1026,8 +1032,8 @@ Partial Class Giras_liquidaciones
         'CheckBox18
         '
         Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(610, 600)
-        Me.CheckBox18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox18.Location = New System.Drawing.Point(672, 600)
+        Me.CheckBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox18.Name = "CheckBox18"
         Me.CheckBox18.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox18.TabIndex = 677
@@ -1036,28 +1042,28 @@ Partial Class Giras_liquidaciones
         'TextBox28
         '
         Me.TextBox28.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox28.Location = New System.Drawing.Point(569, 522)
-        Me.TextBox28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox28.Location = New System.Drawing.Point(631, 522)
+        Me.TextBox28.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(109, 52)
+        Me.TextBox28.Size = New System.Drawing.Size(86, 52)
         Me.TextBox28.TabIndex = 676
         Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox29
         '
         Me.TextBox29.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox29.Location = New System.Drawing.Point(569, 462)
-        Me.TextBox29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox29.Location = New System.Drawing.Point(631, 462)
+        Me.TextBox29.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(109, 52)
+        Me.TextBox29.Size = New System.Drawing.Size(86, 52)
         Me.TextBox29.TabIndex = 675
         Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox30
         '
-        Me.TextBox30.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox30.Location = New System.Drawing.Point(569, 384)
-        Me.TextBox30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox30.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox30.Location = New System.Drawing.Point(631, 384)
+        Me.TextBox30.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox30.Multiline = True
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -1067,8 +1073,8 @@ Partial Class Giras_liquidaciones
         'TextBox32
         '
         Me.TextBox32.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox32.Location = New System.Drawing.Point(907, 718)
-        Me.TextBox32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox32.Location = New System.Drawing.Point(993, 718)
+        Me.TextBox32.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox32.Name = "TextBox32"
         Me.TextBox32.Size = New System.Drawing.Size(98, 52)
         Me.TextBox32.TabIndex = 716
@@ -1078,8 +1084,8 @@ Partial Class Giras_liquidaciones
         'CheckBox19
         '
         Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(938, 681)
-        Me.CheckBox19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox19.Location = New System.Drawing.Point(1024, 681)
+        Me.CheckBox19.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox19.Name = "CheckBox19"
         Me.CheckBox19.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox19.TabIndex = 715
@@ -1088,8 +1094,8 @@ Partial Class Giras_liquidaciones
         'CheckBox20
         '
         Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(938, 637)
-        Me.CheckBox20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox20.Location = New System.Drawing.Point(1024, 637)
+        Me.CheckBox20.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox20.Name = "CheckBox20"
         Me.CheckBox20.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox20.TabIndex = 714
@@ -1098,8 +1104,8 @@ Partial Class Giras_liquidaciones
         'CheckBox21
         '
         Me.CheckBox21.AutoSize = True
-        Me.CheckBox21.Location = New System.Drawing.Point(938, 600)
-        Me.CheckBox21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox21.Location = New System.Drawing.Point(1024, 600)
+        Me.CheckBox21.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox21.Name = "CheckBox21"
         Me.CheckBox21.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox21.TabIndex = 713
@@ -1108,8 +1114,8 @@ Partial Class Giras_liquidaciones
         'TextBox33
         '
         Me.TextBox33.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox33.Location = New System.Drawing.Point(909, 522)
-        Me.TextBox33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox33.Location = New System.Drawing.Point(995, 522)
+        Me.TextBox33.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox33.Name = "TextBox33"
         Me.TextBox33.Size = New System.Drawing.Size(98, 52)
         Me.TextBox33.TabIndex = 712
@@ -1120,7 +1126,7 @@ Partial Class Giras_liquidaciones
         Me.Label14.AutoSize = True
         Me.Label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label14.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(872, 171)
+        Me.Label14.Location = New System.Drawing.Point(958, 171)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(80, 52)
@@ -1132,8 +1138,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox6.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(805, 846)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox6.Location = New System.Drawing.Point(891, 846)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(202, 56)
         Me.ComboBox6.TabIndex = 711
@@ -1141,8 +1147,8 @@ Partial Class Giras_liquidaciones
         'TextBox34
         '
         Me.TextBox34.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox34.Location = New System.Drawing.Point(805, 907)
-        Me.TextBox34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox34.Location = New System.Drawing.Point(891, 911)
+        Me.TextBox34.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.Size = New System.Drawing.Size(200, 52)
         Me.TextBox34.TabIndex = 710
@@ -1153,8 +1159,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox35.BackColor = System.Drawing.Color.Linen
         Me.TextBox35.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox35.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox35.Location = New System.Drawing.Point(805, 718)
-        Me.TextBox35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox35.Location = New System.Drawing.Point(891, 718)
+        Me.TextBox35.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.Size = New System.Drawing.Size(96, 52)
         Me.TextBox35.TabIndex = 709
@@ -1164,8 +1170,8 @@ Partial Class Giras_liquidaciones
         'TextBox36
         '
         Me.TextBox36.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(909, 462)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox36.Location = New System.Drawing.Point(995, 462)
+        Me.TextBox36.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox36.Name = "TextBox36"
         Me.TextBox36.Size = New System.Drawing.Size(98, 52)
         Me.TextBox36.TabIndex = 708
@@ -1175,8 +1181,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox7.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Location = New System.Drawing.Point(805, 782)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox7.Location = New System.Drawing.Point(891, 782)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox7.Name = "ComboBox7"
         Me.ComboBox7.Size = New System.Drawing.Size(202, 56)
         Me.ComboBox7.TabIndex = 702
@@ -1184,8 +1190,8 @@ Partial Class Giras_liquidaciones
         'CheckBox22
         '
         Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.Location = New System.Drawing.Point(843, 681)
-        Me.CheckBox22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox22.Location = New System.Drawing.Point(929, 681)
+        Me.CheckBox22.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox22.Name = "CheckBox22"
         Me.CheckBox22.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox22.TabIndex = 701
@@ -1194,8 +1200,8 @@ Partial Class Giras_liquidaciones
         'CheckBox23
         '
         Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.Location = New System.Drawing.Point(843, 637)
-        Me.CheckBox23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox23.Location = New System.Drawing.Point(929, 637)
+        Me.CheckBox23.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox23.Name = "CheckBox23"
         Me.CheckBox23.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox23.TabIndex = 700
@@ -1204,8 +1210,8 @@ Partial Class Giras_liquidaciones
         'CheckBox24
         '
         Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Location = New System.Drawing.Point(843, 600)
-        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox24.Location = New System.Drawing.Point(929, 600)
+        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox24.Name = "CheckBox24"
         Me.CheckBox24.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox24.TabIndex = 699
@@ -1214,8 +1220,8 @@ Partial Class Giras_liquidaciones
         'TextBox39
         '
         Me.TextBox39.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.Location = New System.Drawing.Point(805, 522)
-        Me.TextBox39.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox39.Location = New System.Drawing.Point(891, 522)
+        Me.TextBox39.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Size = New System.Drawing.Size(96, 52)
         Me.TextBox39.TabIndex = 698
@@ -1224,8 +1230,8 @@ Partial Class Giras_liquidaciones
         'TextBox40
         '
         Me.TextBox40.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox40.Location = New System.Drawing.Point(809, 462)
-        Me.TextBox40.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox40.Location = New System.Drawing.Point(895, 462)
+        Me.TextBox40.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.Size = New System.Drawing.Size(92, 52)
         Me.TextBox40.TabIndex = 697
@@ -1233,9 +1239,9 @@ Partial Class Giras_liquidaciones
         '
         'TextBox41
         '
-        Me.TextBox41.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox41.Location = New System.Drawing.Point(805, 384)
-        Me.TextBox41.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox41.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox41.Location = New System.Drawing.Point(891, 384)
+        Me.TextBox41.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox41.Multiline = True
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -1245,8 +1251,8 @@ Partial Class Giras_liquidaciones
         'TextBox43
         '
         Me.TextBox43.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox43.Location = New System.Drawing.Point(1120, 718)
-        Me.TextBox43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox43.Location = New System.Drawing.Point(1251, 718)
+        Me.TextBox43.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.Size = New System.Drawing.Size(107, 52)
         Me.TextBox43.TabIndex = 738
@@ -1256,8 +1262,8 @@ Partial Class Giras_liquidaciones
         'CheckBox25
         '
         Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(1157, 681)
-        Me.CheckBox25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox25.Location = New System.Drawing.Point(1288, 681)
+        Me.CheckBox25.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox25.Name = "CheckBox25"
         Me.CheckBox25.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox25.TabIndex = 737
@@ -1266,8 +1272,8 @@ Partial Class Giras_liquidaciones
         'CheckBox26
         '
         Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.Location = New System.Drawing.Point(1157, 637)
-        Me.CheckBox26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox26.Location = New System.Drawing.Point(1288, 637)
+        Me.CheckBox26.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox26.Name = "CheckBox26"
         Me.CheckBox26.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox26.TabIndex = 736
@@ -1276,8 +1282,8 @@ Partial Class Giras_liquidaciones
         'CheckBox27
         '
         Me.CheckBox27.AutoSize = True
-        Me.CheckBox27.Location = New System.Drawing.Point(1157, 600)
-        Me.CheckBox27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox27.Location = New System.Drawing.Point(1288, 600)
+        Me.CheckBox27.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox27.Name = "CheckBox27"
         Me.CheckBox27.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox27.TabIndex = 735
@@ -1286,8 +1292,8 @@ Partial Class Giras_liquidaciones
         'TextBox44
         '
         Me.TextBox44.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox44.Location = New System.Drawing.Point(1125, 522)
-        Me.TextBox44.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox44.Location = New System.Drawing.Point(1238, 522)
+        Me.TextBox44.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox44.Name = "TextBox44"
         Me.TextBox44.Size = New System.Drawing.Size(107, 52)
         Me.TextBox44.TabIndex = 734
@@ -1298,7 +1304,7 @@ Partial Class Giras_liquidaciones
         Me.Label17.AutoSize = True
         Me.Label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label17.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(1111, 171)
+        Me.Label17.Location = New System.Drawing.Point(1202, 171)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(91, 52)
@@ -1310,8 +1316,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox8.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox8.FormattingEnabled = True
-        Me.ComboBox8.Location = New System.Drawing.Point(1031, 847)
-        Me.ComboBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox8.Location = New System.Drawing.Point(1162, 847)
+        Me.ComboBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox8.Name = "ComboBox8"
         Me.ComboBox8.Size = New System.Drawing.Size(201, 56)
         Me.ComboBox8.TabIndex = 733
@@ -1319,8 +1325,8 @@ Partial Class Giras_liquidaciones
         'TextBox45
         '
         Me.TextBox45.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.Location = New System.Drawing.Point(1031, 911)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox45.Location = New System.Drawing.Point(1162, 911)
+        Me.TextBox45.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox45.Name = "TextBox45"
         Me.TextBox45.Size = New System.Drawing.Size(201, 52)
         Me.TextBox45.TabIndex = 732
@@ -1331,8 +1337,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox46.BackColor = System.Drawing.Color.Linen
         Me.TextBox46.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox46.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox46.Location = New System.Drawing.Point(1032, 718)
-        Me.TextBox46.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox46.Location = New System.Drawing.Point(1163, 718)
+        Me.TextBox46.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox46.Name = "TextBox46"
         Me.TextBox46.Size = New System.Drawing.Size(80, 52)
         Me.TextBox46.TabIndex = 731
@@ -1342,8 +1348,8 @@ Partial Class Giras_liquidaciones
         'TextBox47
         '
         Me.TextBox47.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.Location = New System.Drawing.Point(1125, 462)
-        Me.TextBox47.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox47.Location = New System.Drawing.Point(1238, 462)
+        Me.TextBox47.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox47.Name = "TextBox47"
         Me.TextBox47.Size = New System.Drawing.Size(107, 52)
         Me.TextBox47.TabIndex = 730
@@ -1353,8 +1359,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox9.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox9.FormattingEnabled = True
-        Me.ComboBox9.Location = New System.Drawing.Point(1032, 783)
-        Me.ComboBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox9.Location = New System.Drawing.Point(1163, 783)
+        Me.ComboBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox9.Name = "ComboBox9"
         Me.ComboBox9.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox9.TabIndex = 724
@@ -1362,8 +1368,8 @@ Partial Class Giras_liquidaciones
         'CheckBox28
         '
         Me.CheckBox28.AutoSize = True
-        Me.CheckBox28.Location = New System.Drawing.Point(1057, 681)
-        Me.CheckBox28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox28.Location = New System.Drawing.Point(1188, 681)
+        Me.CheckBox28.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox28.Name = "CheckBox28"
         Me.CheckBox28.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox28.TabIndex = 723
@@ -1372,8 +1378,8 @@ Partial Class Giras_liquidaciones
         'CheckBox29
         '
         Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.Location = New System.Drawing.Point(1057, 637)
-        Me.CheckBox29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox29.Location = New System.Drawing.Point(1188, 637)
+        Me.CheckBox29.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox29.Name = "CheckBox29"
         Me.CheckBox29.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox29.TabIndex = 722
@@ -1382,8 +1388,8 @@ Partial Class Giras_liquidaciones
         'CheckBox30
         '
         Me.CheckBox30.AutoSize = True
-        Me.CheckBox30.Location = New System.Drawing.Point(1057, 600)
-        Me.CheckBox30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox30.Location = New System.Drawing.Point(1188, 600)
+        Me.CheckBox30.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox30.Name = "CheckBox30"
         Me.CheckBox30.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox30.TabIndex = 721
@@ -1392,8 +1398,8 @@ Partial Class Giras_liquidaciones
         'TextBox50
         '
         Me.TextBox50.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox50.Location = New System.Drawing.Point(1032, 522)
-        Me.TextBox50.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox50.Location = New System.Drawing.Point(1145, 522)
+        Me.TextBox50.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(80, 52)
         Me.TextBox50.TabIndex = 720
@@ -1402,8 +1408,8 @@ Partial Class Giras_liquidaciones
         'TextBox51
         '
         Me.TextBox51.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox51.Location = New System.Drawing.Point(1032, 462)
-        Me.TextBox51.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox51.Location = New System.Drawing.Point(1145, 462)
+        Me.TextBox51.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox51.Name = "TextBox51"
         Me.TextBox51.Size = New System.Drawing.Size(80, 52)
         Me.TextBox51.TabIndex = 719
@@ -1411,9 +1417,9 @@ Partial Class Giras_liquidaciones
         '
         'TextBox52
         '
-        Me.TextBox52.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox52.Location = New System.Drawing.Point(1032, 382)
-        Me.TextBox52.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox52.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox52.Location = New System.Drawing.Point(1145, 388)
+        Me.TextBox52.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox52.Multiline = True
         Me.TextBox52.Name = "TextBox52"
         Me.TextBox52.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -1424,7 +1430,7 @@ Partial Class Giras_liquidaciones
         '
         Me.TextBox54.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox54.Location = New System.Drawing.Point(1923, 714)
-        Me.TextBox54.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox54.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox54.Name = "TextBox54"
         Me.TextBox54.Size = New System.Drawing.Size(143, 52)
         Me.TextBox54.TabIndex = 760
@@ -1435,7 +1441,7 @@ Partial Class Giras_liquidaciones
         '
         Me.CheckBox31.AutoSize = True
         Me.CheckBox31.Location = New System.Drawing.Point(1988, 681)
-        Me.CheckBox31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox31.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox31.Name = "CheckBox31"
         Me.CheckBox31.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox31.TabIndex = 759
@@ -1445,7 +1451,7 @@ Partial Class Giras_liquidaciones
         '
         Me.CheckBox32.AutoSize = True
         Me.CheckBox32.Location = New System.Drawing.Point(1988, 633)
-        Me.CheckBox32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox32.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox32.Name = "CheckBox32"
         Me.CheckBox32.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox32.TabIndex = 758
@@ -1455,7 +1461,7 @@ Partial Class Giras_liquidaciones
         '
         Me.CheckBox33.AutoSize = True
         Me.CheckBox33.Location = New System.Drawing.Point(1988, 585)
-        Me.CheckBox33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox33.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox33.Name = "CheckBox33"
         Me.CheckBox33.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox33.TabIndex = 757
@@ -1465,7 +1471,7 @@ Partial Class Giras_liquidaciones
         '
         Me.TextBox55.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox55.Location = New System.Drawing.Point(1923, 517)
-        Me.TextBox55.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox55.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox55.Name = "TextBox55"
         Me.TextBox55.Size = New System.Drawing.Size(143, 52)
         Me.TextBox55.TabIndex = 756
@@ -1476,7 +1482,7 @@ Partial Class Giras_liquidaciones
         Me.Label31.AutoSize = True
         Me.Label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label31.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1357, 171)
+        Me.Label31.Location = New System.Drawing.Point(1497, 171)
         Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(92, 52)
@@ -1488,8 +1494,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox10.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox10.FormattingEnabled = True
-        Me.ComboBox10.Location = New System.Drawing.Point(1288, 841)
-        Me.ComboBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox10.Location = New System.Drawing.Point(1428, 845)
+        Me.ComboBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox10.Name = "ComboBox10"
         Me.ComboBox10.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox10.TabIndex = 755
@@ -1497,8 +1503,8 @@ Partial Class Giras_liquidaciones
         'TextBox56
         '
         Me.TextBox56.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox56.Location = New System.Drawing.Point(1288, 904)
-        Me.TextBox56.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox56.Location = New System.Drawing.Point(1428, 909)
+        Me.TextBox56.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox56.Name = "TextBox56"
         Me.TextBox56.Size = New System.Drawing.Size(200, 52)
         Me.TextBox56.TabIndex = 754
@@ -1509,8 +1515,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox57.BackColor = System.Drawing.Color.Linen
         Me.TextBox57.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox57.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox57.Location = New System.Drawing.Point(1288, 718)
-        Me.TextBox57.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox57.Location = New System.Drawing.Point(1420, 723)
+        Me.TextBox57.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox57.Name = "TextBox57"
         Me.TextBox57.Size = New System.Drawing.Size(109, 52)
         Me.TextBox57.TabIndex = 753
@@ -1521,7 +1527,7 @@ Partial Class Giras_liquidaciones
         '
         Me.TextBox58.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox58.Location = New System.Drawing.Point(1923, 458)
-        Me.TextBox58.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox58.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox58.Name = "TextBox58"
         Me.TextBox58.Size = New System.Drawing.Size(143, 52)
         Me.TextBox58.TabIndex = 752
@@ -1531,8 +1537,8 @@ Partial Class Giras_liquidaciones
         '
         Me.ComboBox11.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Location = New System.Drawing.Point(1288, 778)
-        Me.ComboBox11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox11.Location = New System.Drawing.Point(1428, 783)
+        Me.ComboBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox11.Name = "ComboBox11"
         Me.ComboBox11.Size = New System.Drawing.Size(200, 56)
         Me.ComboBox11.TabIndex = 746
@@ -1540,8 +1546,8 @@ Partial Class Giras_liquidaciones
         'CheckBox34
         '
         Me.CheckBox34.AutoSize = True
-        Me.CheckBox34.Location = New System.Drawing.Point(1323, 681)
-        Me.CheckBox34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox34.Location = New System.Drawing.Point(1463, 681)
+        Me.CheckBox34.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox34.Name = "CheckBox34"
         Me.CheckBox34.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox34.TabIndex = 745
@@ -1550,8 +1556,8 @@ Partial Class Giras_liquidaciones
         'CheckBox35
         '
         Me.CheckBox35.AutoSize = True
-        Me.CheckBox35.Location = New System.Drawing.Point(1323, 637)
-        Me.CheckBox35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox35.Location = New System.Drawing.Point(1463, 637)
+        Me.CheckBox35.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox35.Name = "CheckBox35"
         Me.CheckBox35.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox35.TabIndex = 744
@@ -1560,8 +1566,8 @@ Partial Class Giras_liquidaciones
         'CheckBox36
         '
         Me.CheckBox36.AutoSize = True
-        Me.CheckBox36.Location = New System.Drawing.Point(1323, 600)
-        Me.CheckBox36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox36.Location = New System.Drawing.Point(1463, 600)
+        Me.CheckBox36.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox36.Name = "CheckBox36"
         Me.CheckBox36.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox36.TabIndex = 743
@@ -1570,8 +1576,8 @@ Partial Class Giras_liquidaciones
         'TextBox61
         '
         Me.TextBox61.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox61.Location = New System.Drawing.Point(1288, 522)
-        Me.TextBox61.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox61.Location = New System.Drawing.Point(1428, 522)
+        Me.TextBox61.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox61.Name = "TextBox61"
         Me.TextBox61.Size = New System.Drawing.Size(97, 52)
         Me.TextBox61.TabIndex = 742
@@ -1580,8 +1586,8 @@ Partial Class Giras_liquidaciones
         'TextBox62
         '
         Me.TextBox62.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox62.Location = New System.Drawing.Point(1288, 462)
-        Me.TextBox62.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox62.Location = New System.Drawing.Point(1428, 462)
+        Me.TextBox62.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox62.Name = "TextBox62"
         Me.TextBox62.Size = New System.Drawing.Size(97, 52)
         Me.TextBox62.TabIndex = 741
@@ -1589,9 +1595,9 @@ Partial Class Giras_liquidaciones
         '
         'TextBox63
         '
-        Me.TextBox63.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox63.Location = New System.Drawing.Point(1288, 382)
-        Me.TextBox63.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox63.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox63.Location = New System.Drawing.Point(1428, 382)
+        Me.TextBox63.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox63.Multiline = True
         Me.TextBox63.Name = "TextBox63"
         Me.TextBox63.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -1603,7 +1609,7 @@ Partial Class Giras_liquidaciones
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label35.Location = New System.Drawing.Point(106, 298)
+        Me.Label35.Location = New System.Drawing.Point(131, 298)
         Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(24, 26)
@@ -1616,7 +1622,7 @@ Partial Class Giras_liquidaciones
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label36.Location = New System.Drawing.Point(201, 298)
+        Me.Label36.Location = New System.Drawing.Point(248, 296)
         Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(24, 26)
@@ -1628,7 +1634,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(439, 227)
+        Me.Label9.Location = New System.Drawing.Point(482, 227)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(132, 50)
@@ -1640,7 +1646,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(332, 227)
+        Me.Label10.Location = New System.Drawing.Point(361, 227)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(106, 50)
@@ -1652,7 +1658,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(677, 227)
+        Me.Label12.Location = New System.Drawing.Point(739, 227)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(132, 50)
@@ -1664,7 +1670,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(572, 227)
+        Me.Label13.Location = New System.Drawing.Point(634, 227)
         Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(106, 50)
@@ -1676,7 +1682,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(905, 227)
+        Me.Label15.Location = New System.Drawing.Point(991, 227)
         Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(132, 50)
@@ -1688,7 +1694,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(806, 227)
+        Me.Label16.Location = New System.Drawing.Point(892, 227)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(106, 50)
@@ -1700,7 +1706,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(1148, 227)
+        Me.Label18.Location = New System.Drawing.Point(1251, 227)
         Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(132, 50)
@@ -1712,7 +1718,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(1034, 227)
+        Me.Label30.Location = New System.Drawing.Point(1136, 227)
         Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(106, 50)
@@ -1736,7 +1742,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(1279, 227)
+        Me.Label34.Location = New System.Drawing.Point(1419, 227)
         Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(106, 50)
@@ -1749,8 +1755,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox10.BackColor = System.Drawing.Color.Linen
         Me.TextBox10.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox10.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox10.Location = New System.Drawing.Point(201, 281)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox10.Location = New System.Drawing.Point(253, 279)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(92, 52)
         Me.TextBox10.TabIndex = 805
@@ -1762,7 +1768,7 @@ Partial Class Giras_liquidaciones
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label39.Location = New System.Drawing.Point(448, 296)
+        Me.Label39.Location = New System.Drawing.Point(500, 298)
         Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(24, 26)
@@ -1775,8 +1781,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox12.BackColor = System.Drawing.Color.Linen
         Me.TextBox12.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox12.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox12.Location = New System.Drawing.Point(439, 281)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox12.Location = New System.Drawing.Point(491, 281)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(106, 52)
         Me.TextBox12.TabIndex = 809
@@ -1788,7 +1794,7 @@ Partial Class Giras_liquidaciones
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label45.Location = New System.Drawing.Point(346, 296)
+        Me.Label45.Location = New System.Drawing.Point(366, 298)
         Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(24, 26)
@@ -1801,8 +1807,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox15.BackColor = System.Drawing.Color.Linen
         Me.TextBox15.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox15.Location = New System.Drawing.Point(345, 279)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox15.Location = New System.Drawing.Point(370, 281)
+        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(86, 52)
         Me.TextBox15.TabIndex = 806
@@ -1814,7 +1820,7 @@ Partial Class Giras_liquidaciones
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label46.Location = New System.Drawing.Point(909, 298)
+        Me.Label46.Location = New System.Drawing.Point(995, 298)
         Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(24, 26)
@@ -1827,8 +1833,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox26.BackColor = System.Drawing.Color.Linen
         Me.TextBox26.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox26.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox26.Location = New System.Drawing.Point(909, 281)
-        Me.TextBox26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox26.Location = New System.Drawing.Point(995, 281)
+        Me.TextBox26.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(84, 52)
         Me.TextBox26.TabIndex = 817
@@ -1840,7 +1846,7 @@ Partial Class Giras_liquidaciones
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label47.Location = New System.Drawing.Point(810, 298)
+        Me.Label47.Location = New System.Drawing.Point(896, 298)
         Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(24, 26)
@@ -1853,8 +1859,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox27.BackColor = System.Drawing.Color.Linen
         Me.TextBox27.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox27.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox27.Location = New System.Drawing.Point(805, 281)
-        Me.TextBox27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox27.Location = New System.Drawing.Point(891, 281)
+        Me.TextBox27.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.Size = New System.Drawing.Size(96, 52)
         Me.TextBox27.TabIndex = 814
@@ -1866,7 +1872,7 @@ Partial Class Giras_liquidaciones
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label48.Location = New System.Drawing.Point(686, 298)
+        Me.Label48.Location = New System.Drawing.Point(748, 298)
         Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(24, 26)
@@ -1879,8 +1885,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox37.BackColor = System.Drawing.Color.Linen
         Me.TextBox37.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox37.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox37.Location = New System.Drawing.Point(686, 281)
-        Me.TextBox37.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox37.Location = New System.Drawing.Point(748, 281)
+        Me.TextBox37.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.Size = New System.Drawing.Size(83, 52)
         Me.TextBox37.TabIndex = 813
@@ -1892,7 +1898,7 @@ Partial Class Giras_liquidaciones
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label49.Location = New System.Drawing.Point(579, 298)
+        Me.Label49.Location = New System.Drawing.Point(641, 298)
         Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(24, 26)
@@ -1905,8 +1911,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox38.BackColor = System.Drawing.Color.Linen
         Me.TextBox38.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox38.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox38.Location = New System.Drawing.Point(569, 281)
-        Me.TextBox38.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox38.Location = New System.Drawing.Point(631, 281)
+        Me.TextBox38.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.Size = New System.Drawing.Size(109, 52)
         Me.TextBox38.TabIndex = 810
@@ -1932,7 +1938,7 @@ Partial Class Giras_liquidaciones
         Me.TextBox48.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox48.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.TextBox48.Location = New System.Drawing.Point(1923, 230)
-        Me.TextBox48.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox48.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox48.Name = "TextBox48"
         Me.TextBox48.Size = New System.Drawing.Size(143, 52)
         Me.TextBox48.TabIndex = 825
@@ -1944,7 +1950,7 @@ Partial Class Giras_liquidaciones
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label51.Location = New System.Drawing.Point(1283, 296)
+        Me.Label51.Location = New System.Drawing.Point(1423, 296)
         Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(24, 26)
@@ -1957,8 +1963,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox49.BackColor = System.Drawing.Color.Linen
         Me.TextBox49.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox49.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox49.Location = New System.Drawing.Point(1288, 279)
-        Me.TextBox49.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox49.Location = New System.Drawing.Point(1428, 279)
+        Me.TextBox49.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox49.Name = "TextBox49"
         Me.TextBox49.Size = New System.Drawing.Size(75, 52)
         Me.TextBox49.TabIndex = 822
@@ -1970,7 +1976,7 @@ Partial Class Giras_liquidaciones
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label52.Location = New System.Drawing.Point(1120, 298)
+        Me.Label52.Location = New System.Drawing.Point(1255, 296)
         Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(24, 26)
@@ -1983,8 +1989,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox59.BackColor = System.Drawing.Color.Linen
         Me.TextBox59.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox59.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox59.Location = New System.Drawing.Point(1120, 281)
-        Me.TextBox59.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox59.Location = New System.Drawing.Point(1260, 279)
+        Me.TextBox59.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox59.Name = "TextBox59"
         Me.TextBox59.Size = New System.Drawing.Size(82, 52)
         Me.TextBox59.TabIndex = 821
@@ -1996,7 +2002,7 @@ Partial Class Giras_liquidaciones
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label53.Location = New System.Drawing.Point(1027, 298)
+        Me.Label53.Location = New System.Drawing.Point(1140, 298)
         Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(24, 26)
@@ -2009,8 +2015,8 @@ Partial Class Giras_liquidaciones
         Me.TextBox60.BackColor = System.Drawing.Color.Linen
         Me.TextBox60.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox60.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox60.Location = New System.Drawing.Point(1032, 281)
-        Me.TextBox60.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox60.Location = New System.Drawing.Point(1145, 279)
+        Me.TextBox60.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox60.Name = "TextBox60"
         Me.TextBox60.Size = New System.Drawing.Size(80, 52)
         Me.TextBox60.TabIndex = 818
@@ -2021,7 +2027,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Button5.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(1043, 987)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(199, 61)
         Me.Button5.TabIndex = 826
@@ -2032,7 +2038,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(365, 739)
+        Me.Label55.Location = New System.Drawing.Point(405, 736)
         Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(25, 28)
@@ -2044,7 +2050,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(576, 736)
+        Me.Label56.Location = New System.Drawing.Point(638, 736)
         Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(25, 28)
@@ -2056,7 +2062,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(810, 734)
+        Me.Label57.Location = New System.Drawing.Point(896, 734)
         Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(25, 28)
@@ -2068,7 +2074,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(1026, 736)
+        Me.Label58.Location = New System.Drawing.Point(1157, 736)
         Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(25, 28)
@@ -2080,7 +2086,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(1298, 734)
+        Me.Label59.Location = New System.Drawing.Point(1430, 739)
         Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(25, 28)
@@ -2093,7 +2099,7 @@ Partial Class Giras_liquidaciones
         Me.Label60.AutoSize = True
         Me.Label60.BackColor = System.Drawing.SystemColors.Window
         Me.Label60.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(281, 739)
+        Me.Label60.Location = New System.Drawing.Point(283, 737)
         Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(25, 28)
@@ -2106,7 +2112,7 @@ Partial Class Giras_liquidaciones
         Me.Label61.AutoSize = True
         Me.Label61.BackColor = System.Drawing.SystemColors.Window
         Me.Label61.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(452, 739)
+        Me.Label61.Location = New System.Drawing.Point(510, 736)
         Me.Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(25, 28)
@@ -2119,7 +2125,7 @@ Partial Class Giras_liquidaciones
         Me.Label62.AutoSize = True
         Me.Label62.BackColor = System.Drawing.SystemColors.Window
         Me.Label62.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(685, 736)
+        Me.Label62.Location = New System.Drawing.Point(747, 736)
         Me.Label62.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(25, 28)
@@ -2132,7 +2138,7 @@ Partial Class Giras_liquidaciones
         Me.Label63.AutoSize = True
         Me.Label63.BackColor = System.Drawing.SystemColors.Window
         Me.Label63.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(909, 734)
+        Me.Label63.Location = New System.Drawing.Point(995, 734)
         Me.Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(25, 28)
@@ -2145,7 +2151,7 @@ Partial Class Giras_liquidaciones
         Me.Label64.AutoSize = True
         Me.Label64.BackColor = System.Drawing.SystemColors.Window
         Me.Label64.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(1132, 736)
+        Me.Label64.Location = New System.Drawing.Point(1263, 736)
         Me.Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(25, 28)
@@ -2191,7 +2197,7 @@ Partial Class Giras_liquidaciones
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(938, 25)
+        Me.TextBox1.Location = New System.Drawing.Point(938, 11)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(304, 52)
@@ -2254,53 +2260,11 @@ Partial Class Giras_liquidaciones
         Me.TextBox65.Text = "0001"
         Me.TextBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'DateTimePicker3
-        '
-        Me.DateTimePicker3.Location = New System.Drawing.Point(112, 346)
-        Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker3.TabIndex = 849
-        '
-        'DateTimePicker4
-        '
-        Me.DateTimePicker4.Location = New System.Drawing.Point(345, 345)
-        Me.DateTimePicker4.Name = "DateTimePicker4"
-        Me.DateTimePicker4.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker4.TabIndex = 850
-        '
-        'DateTimePicker5
-        '
-        Me.DateTimePicker5.Location = New System.Drawing.Point(569, 346)
-        Me.DateTimePicker5.Name = "DateTimePicker5"
-        Me.DateTimePicker5.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker5.TabIndex = 851
-        '
-        'DateTimePicker6
-        '
-        Me.DateTimePicker6.Location = New System.Drawing.Point(805, 346)
-        Me.DateTimePicker6.Name = "DateTimePicker6"
-        Me.DateTimePicker6.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker6.TabIndex = 852
-        '
-        'DateTimePicker7
-        '
-        Me.DateTimePicker7.Location = New System.Drawing.Point(1032, 345)
-        Me.DateTimePicker7.Name = "DateTimePicker7"
-        Me.DateTimePicker7.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker7.TabIndex = 853
-        '
-        'DateTimePicker8
-        '
-        Me.DateTimePicker8.Location = New System.Drawing.Point(1288, 338)
-        Me.DateTimePicker8.Name = "DateTimePicker8"
-        Me.DateTimePicker8.Size = New System.Drawing.Size(200, 22)
-        Me.DateTimePicker8.TabIndex = 854
-        '
         'Label54
         '
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(1393, 227)
+        Me.Label54.Location = New System.Drawing.Point(1533, 227)
         Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(132, 50)
@@ -2313,7 +2277,7 @@ Partial Class Giras_liquidaciones
         Me.TextBox20.BackColor = System.Drawing.Color.Linen
         Me.TextBox20.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox20.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox20.Location = New System.Drawing.Point(1402, 281)
+        Me.TextBox20.Location = New System.Drawing.Point(1542, 281)
         Me.TextBox20.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(75, 52)
@@ -2326,7 +2290,7 @@ Partial Class Giras_liquidaciones
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Gabriola", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label66.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label66.Location = New System.Drawing.Point(1397, 298)
+        Me.Label66.Location = New System.Drawing.Point(1537, 298)
         Me.Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(24, 26)
@@ -2337,7 +2301,7 @@ Partial Class Giras_liquidaciones
         'TextBox31
         '
         Me.TextBox31.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox31.Location = New System.Drawing.Point(1391, 462)
+        Me.TextBox31.Location = New System.Drawing.Point(1531, 462)
         Me.TextBox31.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(97, 52)
@@ -2347,7 +2311,7 @@ Partial Class Giras_liquidaciones
         'TextBox42
         '
         Me.TextBox42.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox42.Location = New System.Drawing.Point(1391, 522)
+        Me.TextBox42.Location = New System.Drawing.Point(1531, 522)
         Me.TextBox42.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New System.Drawing.Size(97, 52)
@@ -2357,7 +2321,7 @@ Partial Class Giras_liquidaciones
         'CheckBox37
         '
         Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.Location = New System.Drawing.Point(1431, 600)
+        Me.CheckBox37.Location = New System.Drawing.Point(1571, 600)
         Me.CheckBox37.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox37.Name = "CheckBox37"
         Me.CheckBox37.Size = New System.Drawing.Size(18, 17)
@@ -2367,7 +2331,7 @@ Partial Class Giras_liquidaciones
         'CheckBox38
         '
         Me.CheckBox38.AutoSize = True
-        Me.CheckBox38.Location = New System.Drawing.Point(1431, 637)
+        Me.CheckBox38.Location = New System.Drawing.Point(1571, 637)
         Me.CheckBox38.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox38.Name = "CheckBox38"
         Me.CheckBox38.Size = New System.Drawing.Size(18, 17)
@@ -2377,7 +2341,7 @@ Partial Class Giras_liquidaciones
         'CheckBox39
         '
         Me.CheckBox39.AutoSize = True
-        Me.CheckBox39.Location = New System.Drawing.Point(1431, 681)
+        Me.CheckBox39.Location = New System.Drawing.Point(1571, 681)
         Me.CheckBox39.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox39.Name = "CheckBox39"
         Me.CheckBox39.Size = New System.Drawing.Size(18, 17)
@@ -2389,7 +2353,7 @@ Partial Class Giras_liquidaciones
         Me.TextBox53.BackColor = System.Drawing.Color.Linen
         Me.TextBox53.Font = New System.Drawing.Font("Gabriola", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox53.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.TextBox53.Location = New System.Drawing.Point(1402, 720)
+        Me.TextBox53.Location = New System.Drawing.Point(1542, 720)
         Me.TextBox53.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox53.Name = "TextBox53"
         Me.TextBox53.Size = New System.Drawing.Size(86, 52)
@@ -2401,7 +2365,7 @@ Partial Class Giras_liquidaciones
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Gabriola", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(1397, 736)
+        Me.Label67.Location = New System.Drawing.Point(1537, 736)
         Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(25, 28)
@@ -2409,12 +2373,150 @@ Partial Class Giras_liquidaciones
         Me.Label67.Text = "₡"
         Me.Label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'TextBox64
+        '
+        Me.TextBox64.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox64.Location = New System.Drawing.Point(145, 341)
+        Me.TextBox64.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox64.Name = "TextBox64"
+        Me.TextBox64.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox64.TabIndex = 865
+        Me.TextBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox67
+        '
+        Me.TextBox67.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox67.Location = New System.Drawing.Point(385, 344)
+        Me.TextBox67.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox67.Name = "TextBox67"
+        Me.TextBox67.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox67.TabIndex = 866
+        Me.TextBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox68
+        '
+        Me.TextBox68.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox68.Location = New System.Drawing.Point(631, 346)
+        Me.TextBox68.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox68.Name = "TextBox68"
+        Me.TextBox68.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox68.TabIndex = 867
+        Me.TextBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox69
+        '
+        Me.TextBox69.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox69.Location = New System.Drawing.Point(891, 346)
+        Me.TextBox69.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox69.Name = "TextBox69"
+        Me.TextBox69.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox69.TabIndex = 868
+        Me.TextBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox70
+        '
+        Me.TextBox70.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox70.Location = New System.Drawing.Point(1145, 346)
+        Me.TextBox70.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox70.Name = "TextBox70"
+        Me.TextBox70.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox70.TabIndex = 869
+        Me.TextBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox71
+        '
+        Me.TextBox71.Font = New System.Drawing.Font("Gabriola", 8.0!)
+        Me.TextBox71.Location = New System.Drawing.Point(1428, 346)
+        Me.TextBox71.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox71.Name = "TextBox71"
+        Me.TextBox71.Size = New System.Drawing.Size(200, 30)
+        Me.TextBox71.TabIndex = 870
+        Me.TextBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox74
+        '
+        Me.TextBox74.Font = New System.Drawing.Font("Gabriola", 20.0!)
+        Me.TextBox74.Location = New System.Drawing.Point(1673, 273)
+        Me.TextBox74.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox74.Multiline = True
+        Me.TextBox74.Name = "TextBox74"
+        Me.TextBox74.Size = New System.Drawing.Size(238, 281)
+        Me.TextBox74.TabIndex = 873
+        Me.TextBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox77
+        '
+        Me.TextBox77.Font = New System.Drawing.Font("Gabriola", 20.0!)
+        Me.TextBox77.Location = New System.Drawing.Point(1673, 668)
+        Me.TextBox77.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox77.Multiline = True
+        Me.TextBox77.Name = "TextBox77"
+        Me.TextBox77.Size = New System.Drawing.Size(238, 295)
+        Me.TextBox77.TabIndex = 874
+        Me.TextBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.Label68.Location = New System.Drawing.Point(1704, 171)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(187, 100)
+        Me.Label68.TabIndex = 875
+        Me.Label68.Text = "Observaciones de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "liquidacion"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.Label69.Location = New System.Drawing.Point(1704, 558)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(187, 100)
+        Me.Label69.TabIndex = 876
+        Me.Label69.Text = "Observaciones de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "adelanto"
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(820, 987)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(199, 61)
+        Me.Button1.TabIndex = 877
+        Me.Button1.Text = "Atras"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'ComboBox14
+        '
+        Me.ComboBox14.Font = New System.Drawing.Font("Gabriola", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox14.FormattingEnabled = True
+        Me.ComboBox14.Location = New System.Drawing.Point(1268, 990)
+        Me.ComboBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox14.Name = "ComboBox14"
+        Me.ComboBox14.Size = New System.Drawing.Size(213, 56)
+        Me.ComboBox14.TabIndex = 879
+        Me.ComboBox14.Text = "Impresoras disponibles"
+        '
         'Giras_liquidaciones
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Linen
         Me.ClientSize = New System.Drawing.Size(1924, 1055)
+        Me.Controls.Add(Me.ComboBox14)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label69)
+        Me.Controls.Add(Me.Label68)
+        Me.Controls.Add(Me.TextBox77)
+        Me.Controls.Add(Me.TextBox74)
+        Me.Controls.Add(Me.TextBox71)
+        Me.Controls.Add(Me.TextBox70)
+        Me.Controls.Add(Me.TextBox69)
+        Me.Controls.Add(Me.TextBox68)
+        Me.Controls.Add(Me.TextBox67)
+        Me.Controls.Add(Me.TextBox64)
         Me.Controls.Add(Me.Label67)
         Me.Controls.Add(Me.TextBox53)
         Me.Controls.Add(Me.CheckBox39)
@@ -2425,12 +2527,6 @@ Partial Class Giras_liquidaciones
         Me.Controls.Add(Me.Label66)
         Me.Controls.Add(Me.TextBox20)
         Me.Controls.Add(Me.Label54)
-        Me.Controls.Add(Me.DateTimePicker8)
-        Me.Controls.Add(Me.DateTimePicker7)
-        Me.Controls.Add(Me.DateTimePicker6)
-        Me.Controls.Add(Me.DateTimePicker5)
-        Me.Controls.Add(Me.DateTimePicker4)
-        Me.Controls.Add(Me.DateTimePicker3)
         Me.Controls.Add(Me.TextBox65)
         Me.Controls.Add(Me.Label40)
         Me.Controls.Add(Me.ComboBox13)
@@ -2612,7 +2708,7 @@ Partial Class Giras_liquidaciones
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label10)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Giras_liquidaciones"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Hoja de liquidación de viáticos"
@@ -2802,12 +2898,6 @@ Partial Class Giras_liquidaciones
     Friend WithEvents ComboBox13 As ComboBox
     Friend WithEvents Label40 As Label
     Friend WithEvents TextBox65 As TextBox
-    Friend WithEvents DateTimePicker3 As DateTimePicker
-    Friend WithEvents DateTimePicker4 As DateTimePicker
-    Friend WithEvents DateTimePicker5 As DateTimePicker
-    Friend WithEvents DateTimePicker6 As DateTimePicker
-    Friend WithEvents DateTimePicker7 As DateTimePicker
-    Friend WithEvents DateTimePicker8 As DateTimePicker
     Friend WithEvents Label54 As Label
     Friend WithEvents TextBox20 As TextBox
     Friend WithEvents Label66 As Label
@@ -2818,4 +2908,16 @@ Partial Class Giras_liquidaciones
     Friend WithEvents CheckBox39 As CheckBox
     Friend WithEvents TextBox53 As TextBox
     Friend WithEvents Label67 As Label
+    Friend WithEvents TextBox64 As TextBox
+    Friend WithEvents TextBox67 As TextBox
+    Friend WithEvents TextBox68 As TextBox
+    Friend WithEvents TextBox69 As TextBox
+    Friend WithEvents TextBox70 As TextBox
+    Friend WithEvents TextBox71 As TextBox
+    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents TextBox77 As TextBox
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents ComboBox14 As ComboBox
 End Class

@@ -1,8 +1,8 @@
 ﻿Public Class Main_app
     'Apenas carga el main_app form, se muestra el de Login
-    Private Sub Main_app_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Login_form.Show()
-    End Sub
+    ' Private Sub Main_app_Load(sender As Object, e As EventArgs) Handles MyBase.Load'
+    'Login_form.Show()'
+    'End Sub'
 
     'Al dar click en "Programación de giras", se cierra la ventana principal y se abre la interfaz de progra de giras
     Private Sub Gira_btn_Click(sender As Object, e As EventArgs) Handles Gira_btn.Click
